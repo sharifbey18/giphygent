@@ -1,0 +1,161 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #3faad0;
+}
+
+a.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Comfortaa', cursive !important;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+a.navbar-brand {
+    font-size: 2em;
+    color: white !important;
+}
+
+a.navbar-brand span,
+.fa-heart {
+    background: -webkit-linear-gradient(#59b0df, #17a2b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    margin: 0;
+    color: white;
+    padding: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {}
+
+p,
+li {
+    font-size: 14px;
+}
+
+h4.card-header {
+    margin: 0px;
+    padding: 8px !important;
+    color: white;
+}
+
+.form-control {
+    font-size: 14px;
+    color: #343a40 !important;
+}
+
+.fa-cog {
+    font-size: 30px !important;
+}
+
+btn-info {
+    border: 0px !important;
+}
+
+.card {
+    border: 3px solid #343a40;
+    border-radius: 8px;
+}
+
+.card-header span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.btn-info {
+    background: -webkit-linear-gradient(#59b0df, #17a2b8) !important;
+}
+
+.button {
+    font-size: 12px;
+    color: white!important;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.app {
+    margin-top: 70px !important;
+}
+
+.btn-shib {
+    background: #d6c048;
+    background-size: contain;
+    border: 2px solid #d6c048;
+    font-weight: bold;
+}
+
+#userImg {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card {
+    margin-bottom: 10PX;
+}
+
+#userLink {
+    color: #3faad0;
+    font-size: 18px;
+}
+
+#userLink:hover {
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.menu {
+    max-width: 35%;
+    position: fixed;
+    right: 0;
+}
+
+.app {
+    margin-bottom: 40px;
+}
+
+#rating {
+    text-transform: uppercase;
+}
+
+.fa-play-circle {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-top: -25%;
+    color: #343a40 !important;
+    font-size: 50px !important;
+    text-shadow: 4px 1px #4dadd8;
+}
+
+span#rating,
+span#date;
+{
+    color: #d6c048 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        max-width: 100%;
+        position: relative;
+    }
+}
